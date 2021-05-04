@@ -1,19 +1,13 @@
-import './App.css';
-import '@fortawesome/fontawesome-free/css/all.min.css'; import
-  'bootstrap-css-only/css/bootstrap.min.css'; import
-  'mdbreact/dist/css/mdb.css';
-import Jumbotron from '../src/components/Jumbotron/Jumbotron';
-import Results from "../src/components/Results/Results"
-import Search from './components/Search/Search';
+import React from "react";
+import Directory from "./components/Directory.js";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Jumbotron />
-      <Results />
+    <div className="App">
+      <Directory />
     </div>
-
   );
-}
+};
 
 export default App;
